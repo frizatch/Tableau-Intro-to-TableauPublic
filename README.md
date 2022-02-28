@@ -1,2 +1,2 @@
-# Tableau-Intro-to-TableauPublic
-Introductory workshop on Tableau Public
+# Introduction to Tableau Public
+
