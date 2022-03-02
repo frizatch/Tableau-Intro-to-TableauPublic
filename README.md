@@ -170,7 +170,7 @@ On to the area where Tableau truly shines: pulling all of our data visualization
 In the lower left, find the icon with the area split into quadrants along with a plus sign. If you hover over it, you'll see it says, "New Dashboad." Click this and you'll be taken to page that looks like so:
 
 <p align="center">
-<img src="images/blankdashboard.png" width="800"/>
+<img src="images/blankdashboard.png" width="600"/>
 </p>
 
 You can construct your dashboard by dragging the sheets into the empty workspace. Select in the lower left between "Tiled" or "Floating" for how you'd like the sheets to fill the space. Notice existing legends import automatically.
@@ -178,7 +178,7 @@ You can construct your dashboard by dragging the sheets into the empty workspace
 Once you've arranged your visualizations in a reasonable manner, click on one. You'll notice more controls when a particular sheet is activated like this. The "handle" at the top allows you to move it around and you'll see some icons on the side. Now make sure you have Sheet2 activated and click on the Use as Filter icon. Now, when you go into the map and from the sidearrow pick a selection tool, you can chose states of your choice and see all the other visualizations only show the data tied to those states. Your visualizations are all connected!
 
 <p align="center">
-<img src="images/filtereddashboard.png" width="800"/>
+<img src="images/filtereddashboard.png" width="600"/>
 </p>
 
 ## <a name="pdf-data"></a>  Pulling in Data from a PDF
