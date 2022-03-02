@@ -173,16 +173,40 @@ In the lower left, find the icon with the area split into quadrants along with a
 <img src="images/blankdashboard.png" width="600"/>
 </p>
 
-You can construct your dashboard by dragging the sheets into the empty workspace. Select in the lower left between "Tiled" or "Floating" for how you'd like the sheets to fill the space. Notice existing legends import automatically.
+You can construct your dashboard by dragging the sheets into the empty workspace. Select in the lower left between "Tiled" or "Floating" for how you'd like the sheets to behave. Notice existing legends import automatically.
 
-Once you've arranged your visualizations in a reasonable manner, click on one. You'll notice more controls when a particular sheet is activated like this. The "handle" at the top allows you to move it around and you'll see some icons on the side. Now make sure you have Sheet2 activated and click on the Use as Filter icon. Now, when you go into the map and from the sidearrow pick a selection tool, you can chose states of your choice and see all the other visualizations only show the data tied to those states. Your visualizations are all connected!
+Once you've arranged your visualizations in a reasonable manner, click on one. You'll notice more controls when a particular sheet is activated like this. The "handle" at the top allows you to move it around and you'll see some icons on the side. Make sure you have Sheet2 activated and click on the Use as Filter icon. Now, when you go into the map and from the sidearrow pick a selection tool, you can chose states and see all the other visualizations only show the data tied to those states. Your visualizations are all connected!
 
 <p align="center">
 <img src="images/filtereddashboard.png" width="600"/>
 </p>
 
+Once you're happy with your work, you can save your workbook to the Tableau Public Server where others can see it. There is a share button to give you a link for social media or code you can use to embed your interactive visual into webpages.
+
 ## <a name="pdf-data"></a>  Pulling in Data from a PDF
 
 Let's go through another exercise pulling in data that we might find in a table of a publication.
+
+Go back to the data folder and download the following file:
+
+[KoppEtAl2014_JHumEvol_page5.pdf](web)
+
+This is a single page from a publication about tracking baboon migrations by genetically sampling different populations and looking for relationships. Let's say we really want to map out where these sample locations are, but the data looks like this!:
+
+<p >
+<img src="images/koppscreenshot.png" width="400"/>
+</p>
+
+Kopp, G. H., Roos, C., Butynski, T. M., Wildman, D. E., Alagaili, A. N., Groeneveld, L. F., & Zinner, D. (2014). Out of africa, but how and when? the case of hamadryas baboons (papio hamadryas). Journal of Human Evolution, 76, 154-164.
+
+Remember all those different kinds of files we saw under the Connect menu when we first opened the software? Opening a PDF was one of the options!
+
+Let's dive in:
+- Start a new workbook by going to File > New in the upper left corner (or just open Tableau Public again if you've closed it).
+- When a new workbook opens, it will open to a blank Sheet, but we aren't connected to any data yet.
+- Either click on the Data Source option in the lower left or the multi-colored logo in the upper left to get to the homepage of the software.
+- Chose PDF file under Connect To a File
+- Browse to your Kopp etal page (if the PDF you're working with is multipage, you can tell Tableau to load the single page containing the data).
+- 
 
 
