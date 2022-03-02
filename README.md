@@ -81,7 +81,7 @@ We'll explore this data and play with the relationships we see in it! Open it up
 
  When you first open Tableau Public, you'll mainly see a white space with a blue column on the left saying "Connect" in big letters inviting you to point Tableau Public to where your file(s) are sitting. There are lot of different options, but we'll use the first under "To a file", Microsoft Excel.
 
- <p align="center">
+<p align="center">
 <img src="images/connect.png" width="200"/>
 </p>
 
@@ -91,18 +91,54 @@ Click on "Microsoft Excel" and browse to where you put IncomePopLand_US_2019.xls
 
 The next step is to check on how Tableau classified your data. The software will try to determine if a column of information or field is numeric, a string (text), geographic or a date. Little symbols appear by the field names in both the data table and the field summary area.
 
- <p align="center">
-<img src="images/fieldclassification.png" width="250"/>
+<p align="center">
+<img src="images/fieldclassification.png" width="300"/>
 </p>
 
 If Tableau gets something wrong, you can click on the symbol and force Tableau to select a data type you know is appropriate. Notice, for instance, a few of the Median Household Income columns have been erroneously classified as "string" because there are null values in the data that complicate how Tableau functions.
 
-Real data is always MESSY and examining what you have at this stage is *always* important efficiently work with the data.
+The green and blue colors of the data type icons show whether Tableau has decided this field is a "Measure" or a "Dimension."
 
- <p align="center">
+Real data is always MESSY and examining what you have is *always* important for efficiently working with the data. Tableau's is not a space where you can clean messy data, it is purely a visualization tool. Before connecting to the data, it is best to tidy it up in excel or OpenRefine, or even Tableau Prep if you get a license for the software.
+
+<p align="center">
 <img src="images/fieldclassoptions.png" width="200"/>
 </p>
+
 ## <a name="visualize"></a>  Creating Data Vizualizations
+
+Now we get to bring our data to life by creating (reasonable!) visualizations with our quantitative (Measures) and categorical (Dimensions) data!
+
+In the lower left, click on the prompt that says go to worksheet, or click on the symbol that looks like a mini mini bar graph with a plus sign. When you do, you'll create "Sheet1" where your first visual will live. You'll see something like this:
+
+<p align="center">
+<img src="images/sheetworkspace.png" width="1000"/>
+</p>
+
+The idea is to drag data layers from the area on the left to the various areas in the workspace or in the Marks card to start seeing how the data interacts. If you're happy with one visual, you can add another sheet and try doing something different with your data. You can navigate back to prior sheets and edit your visualizations.
+
+Beware, Tableau will let you create non-sensical visualizations! Either conceptualize what kind of graph, chart or map you'd like to create before you start; or logic check what appeared after you dragged and dropped your data into place. Using a guide to vizualizations like this [data to viz website](https://www.data-to-viz.com/) can be helpful. Tableau does have a chart suggestion tool in the upper right called "Show Me," but it isn't foolproof.
+
+To see how this works, follow these steps on Sheet1:
+- Find the State data in the Dimensions area and drag it onto the Rows area
+- From the Measures area, find Total Population and drag it onto the Columns area
+- Voila! You have made a horizonatl bar chart.
+- Order the data numerically by clicking the controls in the upper menu... either of the last two ordered bars with an arrow: <img src="images/barchartcontrols.png" />
+
+Create another sheet for a new visual using the mini mini bar chart with a plus button in the lower left:
+- This time, drag the State data onto the space in the Marks card that says Detail.
+- Tableau knows that this is a geographic field in your data, so it can immediately make a map with dots representing each state.
+- Now drag the data labeled NPS Fee Acres onto the button in the Marks card called Color.
+- What happened? Tableau has made a color ramp symbolizing the quantity of National Park Service land in each state.
+- Problem: Alaska, with all its amazingness is skewing our data and we can't see any good information in the contiguous 48.
+- Let's use a filter! The filter card is empty because we don't have a filter on yet. We want to filter State data, so click on the blue oval that says State in the Marks card.
+- The menu that appear has "filter..." at the top. Click on that
+- Uncheck Alaska and click Apply, or just click OK
+- So now California is oinking the NPS acres competition, but you get the idea. Your Sheet2 should look something like this:
+
+<p align="center">
+<img src="images/CAsansAKWinningNPS.png" width="1000"/>
+</p>
 
 ## <a name="dashboard"></a>  Dashboards!
 
