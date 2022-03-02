@@ -21,6 +21,8 @@ By the end of this workshop, you will be able to:
 
 ## Outline
 - [Why Tableau?](#why-tableau)
+- [Tableau Terms - a Glossary](#glossary)
+- [Getting Started](#start)
 - [Connecting to Data](#connect-data)
 - [Data classification](#data-class)
 - [Creating visualizations](#visualize)
@@ -34,17 +36,48 @@ Tableau's main purpose is to create a platform for visual data exploration. Here
 
 - Easily create interactive dashboards
 - Compatibility with a good range of data files
-- Connectors to web-based data
-- Built-in "pop-ups"
+- Connections to web-based data
+- Built-in "pop-ups" for ease of information access
 - Drag and drop GUI
 
-## <a name="connect-data"></a>  Connecting to Data
+
+## <a name="glossary"></a>  A Tableau Glossary
+
+Tableau uses some terms that you may not have seen before, or uses these terms differently from what you're used to, so here is a quick guide to clarify what you'll see:
+
+**Measures**: *quantitative data*
+
+**Dimensions**: *qualitative or categorical data*
+
+**Marks**: *all the rows of your data. One mark equals one row.*
+
+**Marks Box (card)**: *control sparce for adding further detail into your visualization.* 
+•	Click on one of the properties in the box to manually change the way that your visualization appears. 
+•	Drag and drop Dimensions or Measures onto properties in the Marks box to change the context or detail of that Dimension or Measure.
+
+**Sheets**: *Where you create your data visualization. Each visualization will require its own sheet.*  
+
+**Dashboard**: *The interactive display of multiple visualizations from the Sheets.*
+
+
+## <a name="start"></a>  Getting Started
 
 In order to get your Tableau Public connected to some data, you need a) Tableau Public and b) some data!
 
 Under the Workshop Resources at the top, you'll find links to get both. You may be at a computer that already has Tableau Public so you're set on the software. If not, go to the [Tableau Public Page](https://public.tableau.com/s/), enter your email to sign up for an account and download the app. You should then be able to launch it from your machine. For the data, you'll find it in a data folder where you can click on each file to get a download link. For the first part of the workshop, you only need to download:
 
-IncomePopLand_US_2019.xls
+[IncomePopLand_US_2019.xls](https://github.com/frizatch/Tableau-Intro-to-TableauPublic/blob/main/data/IncomePopLand_US_2019.xlsx)
+
+This data is a spreadsheet put together for this workshop about the 50 U.S. states plus the District of Columbia and Puerto Rico.
+
+The information is fairly random, but largely consists of:
+- Population data for states and capital cities (ACS 2019 and census 2020)
+- Land, water, and National Park Service areas for each state
+- Median household income by race and age (ACS 2019)
+
+We'll explore this data
+
+## <a name="connect-data"></a>  Connecting to Data
 
 ## <a name="data-class"></a>  Automatic Data Classification
 
