@@ -112,7 +112,7 @@ Now we get to bring our data to life by creating (reasonable!) visualizations wi
 In the lower left, click on the prompt that says go to worksheet, or click on the symbol that looks like a mini mini bar graph with a plus sign. When you do, you'll create "Sheet1" where your first visual will live. You'll see something like this:
 
 <p align="center">
-<img src="images/sheetworkspace.png" width="1000"/>
+<img src="images/sheetworkspace.png" width="800"/>
 </p>
 
 The idea is to drag data layers from the area on the left to the various areas in the workspace or in the Marks card to start seeing how the data interacts. If you're happy with one visual, you can add another sheet and try doing something different with your data. You can navigate back to prior sheets and edit your visualizations.
@@ -122,8 +122,9 @@ Beware, Tableau will let you create non-sensical visualizations! Either conceptu
 To see how this works, follow these steps on Sheet1:
 - Find the State data in the Dimensions area and drag it onto the Rows area
 - From the Measures area, find Total Population and drag it onto the Columns area
-- Voila! You have made a horizonatl bar chart.
+- **Voila!** You have made a horizontal bar chart.
 - Order the data numerically by clicking the controls in the upper menu... either of the last two ordered bars with an arrow: <img src="images/barchartcontrols.png" />
+- What is interesting about the order you see? Anything surprising?
 
 Create another sheet for a new visual using the mini mini bar chart with a plus button in the lower left:
 - This time, drag the State data onto the space in the Marks card that says Detail.
@@ -134,11 +135,29 @@ Create another sheet for a new visual using the mini mini bar chart with a plus 
 - Let's use a filter! The filter card is empty because we don't have a filter on yet. We want to filter State data, so click on the blue oval that says State in the Marks card.
 - The menu that appear has "filter..." at the top. Click on that
 - Uncheck Alaska and click Apply, or just click OK
-- So now California is oinking the NPS acres competition, but you get the idea. Your Sheet2 should look something like this:
+- So now California is oinking the NPS acres competition, but you get the idea.
+- Hover over the various states to see the actual data. If you click on a state, you'll get access to editing the filter. You can re-click on the same state to go back to the last view. Your Sheet2 should look something like this:
 
 <p align="center">
-<img src="images/CAsansAKWinningNPS.png" width="1000"/>
+<img src="images/CAsansAKWinningNPS.png" width="600"/>
 </p>
+
+Let's make a scatter plot on Sheet3
+- Create another sheet
+- Drag Total Population to the Columns area
+- Drag Capital Population to the Rows area
+- Now we only have one dot showing the SUM of the two different populations, but what we want to see is the relationship between the full state population to the state's capital population.
+- Drag the State layer and drop it on the Color option in the Marks card
+- Go ahead and ignore the warning and choose "Add All Members"
+- Our one data point is now split out amoung all 52 areas.
+- Examine the graph and think about the ratio of people living in the various state capitals compared to the state as a whole.
+- Clicking on individual states in the legend will highlight where they are in the plot.
+
+<p align="center">
+<img src="images/popscatterplot.png" width="600"/>
+</p>
+
+Open another sheet and use Sheet4 to come up with your own visualization. Use the Show Me tool for inspiration if needed by expanding this button in the upper right: <img src="images/showme.png"/>, but use it with a grain of salt.
 
 ## <a name="dashboard"></a>  Dashboards!
 
