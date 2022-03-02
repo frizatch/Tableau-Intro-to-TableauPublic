@@ -2,9 +2,9 @@
 
 Tableau, according to their [website](https://tableau.com), is "a visual analytics platform transforming the way we use data to solve problems—empowering people and organizations to make the most of their data." The company is focused on business analytics, but there are many applications for this software whose strength is building interactive webplatforms for visual data analytics.
 
-There are different versions of the software: Tableau Public and Tableau Desktop. The latter requires a license, but if you are a student or a teacher, you can get a free, renewable, 1-year license from the [Tableau Academic Programs page](https://www.tableau.com/community/academic). There is also a licensed product called Tableau Prep - a software for prepping data to be used by Tableau. ([OpenRefine](https://openrefine.org/) is a similar, license-free, data cleaning tool).
+There are different versions of the software, mainly Tableau Public and Tableau Desktop. The latter requires a license, but if you are a student or a teacher, you can get a free, renewable, 1-year license from the [Tableau Academic Programs page](https://www.tableau.com/community/academic). There is also a licensed product called Tableau Prep - a software for prepping data to be used by Tableau. ([OpenRefine](https://openrefine.org/) is a similar, license-free, data cleaning tool).
 
-Tableau Public is available for everyone without status verification, but it has access to less data on the Tableau Server. Also, and IMPROTANTLY, all of the workbooks are publicly posted on the web. You can only save workbooks to your personal computer with Tableau Desktop. DO NOT create any workbooks with sensitive or private data in Tableau Public.
+Tableau Public is available for everyone without status verification, but it has access to less data on the Tableau Server. Also, and IMPORTANTLY, all of the workbooks are publicly posted on the web. You can only save workbooks to your personal computer with Tableau Desktop. DO NOT create any workbooks with sensitive or private data in Tableau Public.
 
 
 
@@ -20,15 +20,24 @@ By the end of this workshop, you will be able to:
 - Create an interactive dashboard that ties your visualizations together
 
 ## Outline
-- [something something](#something)
-- [Why QGIS?](#why-qgis)
-- [Data types](#data-types)
-- [The QGIS Interface](#qgis-interface)
-- [Loading Data](#loading-data)
-- [Styling Data](#styling-data)
-- [Exploring Spatial Relationships](#spatial-relationships)
-- [Making a Print Layout](#making-a-map)
+- [Tableau's Advantages](#tableau-strength)
+- [Connecting to Data](#connect-data)
+- [Data classification](#data-class)
+- [Creating visualizations](#visualize)
+- [Making a Dashboard](#dashboard)
+- [Connecting to PDF Data](#pdf-data)
 
 
-## <a name="something"></a>  Something?
-blah blah blah
+## <a name="tableau-strength"></a>  Why use Tableau?
+
+## <a name="connect-data"></a>  Connecting to Data
+
+## <a name="data-class"></a>  Automatic Data Classification
+
+## <a name="visualize"></a>  Creating Data Vizualizations
+
+## <a name="dashboard"></a>  Dashboards!
+
+## <a name="pdf-data"></a>  Pulling in Data from a PDF
+
+
