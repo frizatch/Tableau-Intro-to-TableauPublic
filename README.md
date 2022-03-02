@@ -75,16 +75,33 @@ The information is fairly random, but largely consists of:
 - Land, water, and National Park Service areas for each state
 - Median household income by race and age (ACS 2019)
 
-We'll explore this data and play with the relationships we see in it!
+We'll explore this data and play with the relationships we see in it! Open it up with Excel and see what's there so you know what you're working with.
 
 ## <a name="connect-data"></a>  Connecting to Data
 
-<p>
-<img src="images/tableau_crosses.png" width="100"/>
- </p>
+ When you first open Tableau Public, you'll mainly see a white space with a blue column on the left saying "Connect" in big letters inviting you to point Tableau Public to where your file(s) are sitting. There are lot of different options, but we'll use the first under "To a file", Microsoft Excel.
+
+ <p align="center">
+<img src="images/connect.png" width="200"/>
+</p>
+
+Click on "Microsoft Excel" and browse to where you put IncomePopLand_US_2019.xls. After selecting your file, Tableau will open up a page where you can examine your data! Note: If your excel file has more than one sheet in it, you'll select the sheet you want by dragging it from the lefthand side to the blank area in the middle.
 
 ## <a name="data-class"></a>  Automatic Data Classification
 
+The next step is to check on how Tableau classified your data. The software will try to determine if a column of information or field is numeric, a string (text), geographic or a date. Little symbols appear by the field names in both the data table and the field summary area.
+
+ <p align="center">
+<img src="images/fieldclassification.png" width="200"/>
+</p>
+
+If Tableau gets something wrong, you can click on the symbol and force Tableau to select a data type you know is appropriate. Notice, for instance, a few of the Median Household Income columns have been erroneously classified as "string" because there are null values in the data that complicate how Tableau functions.
+
+Real data is always MESSY and examining what you have at this stage is always important to be effcient in working with the data.
+
+ <p align="center">
+<img src="images/fieldclassoptions.png" width="200"/>
+</p>
 ## <a name="visualize"></a>  Creating Data Vizualizations
 
 ## <a name="dashboard"></a>  Dashboards!
