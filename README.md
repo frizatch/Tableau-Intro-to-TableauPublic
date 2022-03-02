@@ -10,7 +10,7 @@ Tableau Public is available for everyone without status verification, but it has
 
 ## Workshop Resources
  - Software - access here: [Tableau Public](https://public.tableau.com/s/)
- - Data - download from this repo's [data folder](https://)
+ - Data - download from this repo's [data folder](https://github.com/frizatch/Tableau-Intro-to-TableauPublic/tree/main/data)
 
 ## Workshop Goals
 By the end of this workshop, you will be able to:
@@ -20,7 +20,7 @@ By the end of this workshop, you will be able to:
 - Create an interactive dashboard that ties your visualizations together
 
 ## Outline
-- [Tableau's Advantages](#tableau-strength)
+- [Why Tableau?](#why-tableau)
 - [Connecting to Data](#connect-data)
 - [Data classification](#data-class)
 - [Creating visualizations](#visualize)
@@ -28,9 +28,23 @@ By the end of this workshop, you will be able to:
 - [Connecting to PDF Data](#pdf-data)
 
 
-## <a name="tableau-strength"></a>  Why use Tableau?
+## <a name="why-tableau"></a>  Why use Tableau?
+
+Tableau's main purpose is to create a platform for visual data exploration. Here are some of its strengths:
+
+- Easily create interactive dashboards
+- Compatibility with a good range of data files
+- Connectors to web-based data
+- Built-in "pop-ups"
+- Drag and drop GUI
 
 ## <a name="connect-data"></a>  Connecting to Data
+
+In order to get your Tableau Public connected to some data, you need a) Tableau Public and b) some data!
+
+Under the Workshop Resources at the top, you'll find links to get both. You may be at a computer that already has Tableau Public so you're set on the software. If not, go to the [Tableau Public Page](https://public.tableau.com/s/), enter your email to sign up for an account and download the app. You should then be able to launch it from your machine. For the data, you'll find it in a data folder where you can click on each file to get a download link. For the first part of the workshop, you only need to download:
+
+IncomePopLand_US_2019.xls
 
 ## <a name="data-class"></a>  Automatic Data Classification
 
