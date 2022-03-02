@@ -51,9 +51,9 @@ Tableau uses some terms that you may not have seen before, or uses these terms d
 
 **Marks**: *all the rows of your data. One mark equals one row.*
 
-**Marks Box (card)**: *control sparce for adding further detail into your visualization.* 
-•	Click on one of the properties in the box to manually change the way that your visualization appears. 
-•	Drag and drop Dimensions or Measures onto properties in the Marks box to change the context or detail of that Dimension or Measure.
+**Marks card**: *control sparce for adding further detail into your visualization.* 
+- Click on one of the properties in the box to manually change the way that your visualization appears. 
+- Drag and drop Dimensions or Measures onto properties in the Marks card to change the context or detail of that Dimension or Measure.
 
 **Sheets**: *Where you create your data visualization. Each visualization will require its own sheet.*  
 
@@ -75,9 +75,13 @@ The information is fairly random, but largely consists of:
 - Land, water, and National Park Service areas for each state
 - Median household income by race and age (ACS 2019)
 
-We'll explore this data
+We'll explore this data and play with the relationships we see in it!
 
 ## <a name="connect-data"></a>  Connecting to Data
+
+<p>
+<img src="images/tableau_crosses.png" width="100"/>
+ </p>
 
 ## <a name="data-class"></a>  Automatic Data Classification
 
