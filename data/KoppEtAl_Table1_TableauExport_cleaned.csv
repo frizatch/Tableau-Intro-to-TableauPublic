@@ -1,0 +1,44 @@
+﻿Number,Taxon,Country,Site,Code,Longitude,Latitude,Size
+1,Ph,Saudi Arabia,Abha,Abh,42.505228,18.216389,25
+2,Ph,Saudi Arabia,Al Akhal,Akl,39.859444,23.315556,6
+3,Ph,Saudi Arabia,Baha,Bah,41.466667,20.016667,15
+4,Ph,Saudi Arabia,Dhilafa Escp.,Dhi,42.466667,17.933333,4
+5,Ph,Saudi Arabia,Taif,Tif,40.415833,21.270278,15
+6,Ph,Yemen,Bura'a Forest A,BuH,43.416667,14.866667,4
+7,Ph,Yemen,Bura'a Forest B,BuL,43.866944,14.867222,5
+8,Ph,Yemen,Jebel Iraf,Ira,44.25,13.116667,1
+9,Ph,Yemen,Jebel Raymah,Ray,43.433333,14.666667,1
+10,Ph,Yemen,Jebel Sabir,Sab,44.2,13.583333,1
+11,Ph,Eritrea,Mt. Abagamsei,Aba,39.01862,15.3491,14
+12,Ph,Eritrea,Abdur,Abd,39.84585,15.12857,11
+13,Ph,Eritrea,Afabet,Afb,38.749583,16.120166,3
+14,Ph,Eritrea,Barka Bridge,Bbr,38.02038,15.55512,7
+15,Ph,Eritrea,R. Baeat,Bea,38.09427,15.67157,2
+16,Ph,Eritrea,Dada (Bolo),Dad,42.508889,13.12963,13
+17,Ph,Eritrea,Debresina,Deb,38.82593,15.70535,3
+18,Ph,Eritrea,Dogali,Dog,39.28473,15.57908,6
+19,Ph,Eritrea,Durfo,Dur,38.96458,15.3737,7
+20,Ph,Eritrea,Filﬁl Bridge,Fil,38.94445,15.61442,6
+21,Ph,Eritrea,Furrus,Fur,38.97115,15.01148,9
+22,Ph,Eritrea,Geleb,Gel,38.82407,15.82143,7
+23,Ph,Eritrea,Halhal,Hal,38.31433,15.94137,7
+24,Ph,Eritrea,Af Himbol,Him,37.3971,15.94505,9
+25,Ph,Eritrea,Kubkub,Kub,38.63217,16.34482,11
+26,Ph,Eritrea,Mensura,Men,38.35123,15.44598,5
+27,Ph,Eritrea,Molki,Mol,38.2217,14.90908,7
+28,PX,Eritrea,R. Shackat,Sha,37.49935,14.9831,4
+29,Pa,Eritrea,R. Griset,Gri,36.76018,14.88322,8
+30,Pa,Eritrea,R. Hadejemi,Had,36.9071,14.35827,6
+31,Pa,Eritrea,Haykota,Hay,37.066,15.15695,17
+32,Pa,Eritrea,Tesseney,Tes,36.70142,15.1451,9
+33,Ph,Ethiopia,Awash Station,ASt,40.17775,8.992683,5
+34,Ph,Ethiopia,Gerba Luku,Ger,41.534,9.5874,10
+35,Ph,Ethiopia,Mieso,Mie,40.764083,9.203533,7
+36,PX,Ethiopia,Awash Falls,AFa,40.019167,8.842683,5
+37,PX,Ethiopia,Wolenkiti,Wol,39.487883,8.694583,5
+38,Pa,Ethiopia,Adami Tulu,Ada,38.714933,7.825583,4
+39,Pa,Ethiopia,Alambada,Ala,38.747683,7.504633,3
+40,Pa,Ethiopia,Managasha 1,Mng,38.583333,9.083333,1
+41,Pa,Ethiopia,Managasha 2,Man,38.57125,8.968383,6
+42,Pa,Ethiopia,Wendo Genet,Wen,38.64965,7.071267,1
+43,Pc,Somalia,Webi Shebelli,Web,45.433333,2.420833,1

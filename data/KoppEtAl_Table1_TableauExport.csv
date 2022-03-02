@@ -1,0 +1,59 @@
+﻿F1,F2,F3,F4,F5,F7,occurring every 100 generations. The adequacy of a 10% burn-in and,Size
+1,Ph,Saudi Arabia,Abha,Abh,42.505228 18.216389,convergence of all parameters was assessed by visual inspection,25
+2,Ph,Saudi Arabia,Al Akhal,Akl,39.859444 23.315556,of the trace of the parameters across generations using TRACER,6
+3,Ph,Saudi Arabia,Baha,Bah,41.466667 20.016667,,15
+,,,,,,"1.5 (Rambaut et al., 2003). The sampling distributions were com-",
+4,Ph,Saudi Arabia,Dhilafa Escp.,Dhi,42.466667 17.933333,,4
+,,,,,,bined (25% burn-in) using LogCombiner 1.6.1 (Rambaut and,
+5,Ph,Saudi Arabia,Taif,Tif,40.415833 21.270278,,15
+,,,,,,"Drummond, 2002a). A consensus chronogram with node height",
+6,Ph,Yemen,Bura'a Forest A,BuH,43.416667 14.866667,,4
+7,Ph,Yemen,Bura'a Forest B,BuL,43.866944 14.867222,distribution was generated and visualized with TreeAnnotator 1.6.1,5
+8,Ph,Yemen,Jebel Iraf,Ira,44.250000 13.116667,"(Rambaut and Drummond, 2002b) and FigTree 1.3.1 (Rambaut,",1
+9,Ph,Yemen,Jebel Raymah,Ray,43.433333 14.666667,,1
+,,,,,,2006).,
+10,Ph,Yemen,Jebel Sabir,Sab,44.200000 13.583333,,1
+11,Ph,Eritrea,Mt. Abagamsei,Aba,39.018620 15.349100,,14
+12,Ph,Eritrea,Abdur,Abd,39.845850 15.128570,Results,11
+13,Ph,Eritrea,Afabet,Afb,38.749583 16.120166,,3
+14,Ph,Eritrea,Barka Bridge,Bbr,38.020380 15.555120,,7
+,,,,,,The 294 baboon samples comprised 109 HVRI haplotypes. The,
+15,Ph,Eritrea,R. Baeat,Bea,38.094270 15.671570,,2
+,,,,,,"subset of 73 samples for which we analysed the Brown Region, cyt",
+16,Ph,Eritrea,Dada (Bolo),Dad,42.508889 13.129630,,13
+,,,,,,"b, and HVRI, comprised 52 haplotypes.",
+17,Ph,Eritrea,Debresina,Deb,38.825930 15.705350,,3
+18,Ph,Eritrea,Dogali,Dog,39.284730 15.579080,,6
+19,Ph,Eritrea,Durfo,Dur,38.964580 15.373700,Haplotype network,7
+20,Ph,Eritrea,Filﬁl Bridge,Fil,38.944450 15.614420,,6
+21,Ph,Eritrea,Furrus,Fur,38.971150 15.011480,,9
+,,,,,,The HVRI haplotype network reveals three major clades (Fig. 3).,
+22,Ph,Eritrea,Geleb,Gel,38.824070 15.821430,,7
+23,Ph,Eritrea,Halhal,Hal,38.314330 15.941370,Clade X is strictly African and consists of Eritrean and a few Ethio-,7
+24,Ph,Eritrea,Af Himbol,Him,37.397100 15.945050,"pian hamadryas baboons, and phenotypical P. hamadryas Â P. anubis",9
+25,Ph,Eritrea,Kubkub,Kub,38.632170 16.344820,"hybrids from Ethiopia. Clade Y is more complex, encompassing",11
+26,Ph,Eritrea,Mensura,Men,38.351230 15.445980,,5
+,,,,,,"Eritrean hamadryas and olive baboons, Eritrean hybrids, and",
+27,Ph,Eritrea,Molki,Mol,38.221700 14.909080,,7
+,,,,,,"Arabian hamadryas baboons. Clade Z comprises Ethiopian, Eritrean,",
+28,PX,Eritrea,R. Shackat,Sha,37.499350 14.983100,,4
+29,Pa,Eritrea,R. Griset,Gri,36.760180 14.883220,and Arabian hamadryas baboons. Two Arabian clades are identiﬁ-,8
+30,Pa,Eritrea,R. Hadejemi,Had,36.907100 14.358270,able. Clade Arab_Y comprises four haplotypes and clusters closely,6
+31,Pa,Eritrea,Haykota,Hay,37.066000 15.156950,,17
+,,,,,,with Eritrean baboons. Clade Arab_Z consists mainly of haplotypes,
+32,Pa,Eritrea,Tesseney,Tes,36.701420 15.145100,,9
+,,,,,,found in Arabia but also some haplotypes found in Eritrea from,
+33,Ph,Ethiopia,Awash Station,ASt,40.177750 8.992683,,5
+34,Ph,Ethiopia,Gerba Luku,Ger,41.534000 9.587400,sampling locations closest to the Bab-el-Mandab Strait (Dad) and,10
+35,Ph,Ethiopia,Mieso,Mie,40.764083 9.203533,"one haplotype from Gerba Luku, Ethiopia (0317PHGer). Clade",7
+36,PX,Ethiopia,Awash Falls,AFa,40.019167 8.842683,Arab_Z clusters more closely with Ethiopian baboons.,5
+37,PX,Ethiopia,Wolenkiti,Wol,39.487883 8.694583,,5
+38,Pa,Ethiopia,Adami Tulu,Ada,38.714933 7.825583,,4
+,,,,,,Population genetics of Arabian baboons,
+39,Pa,Ethiopia,Alambada,Ala,38.747683 7.504633,,3
+40,Pa,Ethiopia,Managasha 1,Mng,38.583333 9.083333,,1
+41,Pa,Ethiopia,Managasha 2,Man,38.571250 8.968383,"Whereas the three northern Arabia sampling locations (Akla,",6
+42,Pa,Ethiopia,Wendo Genet,Wen,38.649650 7.071267,,1
+,,,,,,"Taif, and Baha) harbour only haplotypes of Clade Arab_Z, both",
+43,Pc,Somalia,Webi Shebelli,Web,45.433333 2.420833,,1
+,,,,,,Clades Arab_Z and Arab_Y are represented in all other locations in,
