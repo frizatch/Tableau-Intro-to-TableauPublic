@@ -119,6 +119,7 @@ The idea is to drag data layers from the area on the left to the various areas i
 
 Beware, Tableau will let you create non-sensical visualizations! Either conceptualize what kind of graph, chart or map you'd like to create before you start; or logic check what appeared after you dragged and dropped your data into place. Using a guide to vizualizations like this [data to viz website](https://www.data-to-viz.com/) can be helpful. Tableau does have a chart suggestion tool in the upper right called "Show Me," but it isn't foolproof.
 
+### Sheet1
 To see how this works, follow these steps on Sheet1:
 - Find the State data in the Dimensions area and drag it onto the Rows area
 - From the Measures area, find Total Population and drag it onto the Columns area
@@ -126,6 +127,7 @@ To see how this works, follow these steps on Sheet1:
 - Order the data numerically by clicking the controls in the upper menu... either of the last two ordered bars with an arrow: <img src="images/barchartcontrols.png" />
 - What is interesting about the order you see? Anything surprising?
 
+### Sheet2
 Create another sheet for a new visual using the mini mini bar chart with a plus button in the lower left:
 - This time, drag the State data onto the space in the Marks card that says Detail.
 - Tableau knows that this is a geographic field in your data, so it can immediately make a map with dots representing each state.
@@ -142,6 +144,7 @@ Create another sheet for a new visual using the mini mini bar chart with a plus 
 <img src="images/CAsansAKWinningNPS.png" width="600"/>
 </p>
 
+### Sheet3
 Let's make a scatter plot on Sheet3
 - Create another sheet
 - Drag Total Population to the Columns area
@@ -157,10 +160,29 @@ Let's make a scatter plot on Sheet3
 <img src="images/popscatterplot.png" width="600"/>
 </p>
 
-Open another sheet and use Sheet4 to come up with your own visualization. Use the Show Me tool for inspiration if needed by expanding this button in the upper right: <img src="images/showme.png"/>, but use it with a grain of salt.
+### Sheet4
+Open another sheet and use Sheet4 to come up with your own visualization. Use the Show Me tool for inspiration if needed by expanding this button in the upper right: <img src="images/showme.png"/>, but use it with a grain of salt. In the Marks card, you can change your visualization from "Automatic" to the specific kind of chart you want.
 
 ## <a name="dashboard"></a>  Dashboards!
 
+On to the area where Tableau truly shines: pulling all of our data visualizations or "sheets" in to one place where we can see them interact with each other!
+
+In the lower left, find the icon with the area split into quadrants along with a plus sign. If you hover over it, you'll see it says, "New Dashboad." Click this and you'll be taken to page that looks like so:
+
+<p align="center">
+<img src="images/blankdashboard.png" width="800"/>
+</p>
+
+You can construct your dashboard by dragging the sheets into the empty workspace. Select in the lower left between "Tiled" or "Floating" for how you'd like the sheets to fill the space. Notice the legends, when they exist import automatically.
+
+Once you've arranged your visualizations in a reasonable manner, click on one. You'll notice more controls when a particular sheet is activated like this. The "handle" at the top allows you to move it around and you'll see some icons on the side. Now make sure you have Sheet2 activated and click on the Use as Filter icon. Now, when you go into the map and from the sidearrow pick a selection tool, you can chose states of your choice and see all the other visualizations only show the data tied to those states. Your visualizations are all connected!
+
+<p align="center">
+<img src="images/filtereddashboard.png" width="800"/>
+</p>
+
 ## <a name="pdf-data"></a>  Pulling in Data from a PDF
+
+Let's go through another exercise pulling in data that we might find in a table of a publication.
 
 
