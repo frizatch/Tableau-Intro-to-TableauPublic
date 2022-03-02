@@ -39,6 +39,7 @@ Tableau's main purpose is to create a platform for visual data exploration. Here
 - Connections to web-based data
 - Built-in "pop-ups" for ease of information access
 - Drag and drop GUI
+- Can handle large datasets
 
 
 ## <a name="glossary"></a>  A Tableau Glossary
@@ -212,7 +213,7 @@ Let's dive in:
 - Take a look at the data! What happened? Yep, it needs a little cleaning.
 
 <p >
-<img src="images/messypdfdata.png" width="300"/>
+<img src="images/messypdfdata.png" width="600"/>
 </p>
 
 - Thankfully, we can export this table to a .csv (use Data > Export Data to CSV), clean it up in excel, then re-import it.
@@ -223,14 +224,14 @@ Let's dive in:
 - Re-examine your data - it looks much better!
 
 <p >
-<img src="images/cleanedpdfdata.png" width="300"/>
+<img src="images/cleanedpdfdata.png" width="600"/>
 </p>
 
 ### Sheet 1
 
 Now this data has specific latitude and longitude information about the sampling sites. Before, when we were mapping the states (and capital if you did that), we were using the backend of Tableau to interpret our text geolocation data. This time, we'll use the decimal degrees directly to create dots on the map! (*Hint*: if you have data that isn't in decimal degrees, convert it to that format before loading into Tableau).
 
-Let's visualize these baboons!
+Let's visualize these baboons sites!
 - Go to Sheet1 (you CAN rename these if you'd like by double-clicking on the tab)
 - Drag the Latitude to the Rows area
 - Drag the Longitude to the Columns area
@@ -240,7 +241,7 @@ Let's visualize these baboons!
 - Drag Size (sample size at each site) onto Size in the Marks card
 - Drag Taxon onto Color in the Marks Card
 
-You now have a map that show the sample sites of the baboons and their different taxons that looks like so!:
+You now have a map that show the sample sites of the baboons and their different taxons to explore!:
 
 <p align="center">
 <img src="images/baboonmap.png" width="700"/>
