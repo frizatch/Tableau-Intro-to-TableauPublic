@@ -207,6 +207,19 @@ Let's dive in:
 - Either click on the Data Source option in the lower left or the multi-colored logo in the upper left to get to the homepage of the software.
 - Chose PDF file under Connect To a File
 - Browse to your Kopp etal page (if the PDF you're working with is multipage, you can tell Tableau to load the single page containing the data).
-- 
+- Once connected, you'll notice there is more than one table created. You can preview which one is best with the little icons on their right that appear when you hover over them.
+- Drag Table 1 over to the Drag Tables Here area.
+- Take a look at the data! What happened? Yep, it needs a little cleaning.
 
+<p >
+<img src="images/koppscreenshot.png" width="300"/>
+</p>
+
+- Thankfully, we can export this table to a .csv (use Data > Export Data to CSV), clean it up in excel, then re-import it.
+- I have already done this for you! Go back into the [data folder](https://github.com/frizatch/Tableau-Intro-to-TableauPublic/tree/main/data) for this workshop and explore the pre and post files to see what I did. If the data cleaning is more in depth, using OpenRefine is a good decision.
+- Copy and paste the data from the cleaned version into a blank excel spreadsheet.
+- Remove the connection to the pdf version via the dropdown in the Page 1 Table 1 box you see
+- Connect to your nice excel spreadsheet
+- Re-examine your data - it looks much better!
+- 
 
