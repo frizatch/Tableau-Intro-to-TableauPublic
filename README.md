@@ -106,7 +106,7 @@ Real data is always MESSY and examining what you have is *always* important for 
 <img src="images/fieldclassoptions.png" width="200"/>
 </p>
 
-## <a name="visualize"></a>  Creating Data Vizualizations
+## <a name="visualize"></a>  Creating Data Visualizations
 
 Now we get to bring our data to life by creating (reasonable!) visualizations with our quantitative (Measures) and categorical (Dimensions) data!
 
