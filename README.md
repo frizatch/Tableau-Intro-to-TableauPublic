@@ -55,6 +55,7 @@ Tableau uses some terms that you may not have seen before, or uses these terms d
 **Marks card**: *control sparce for adding further detail into your visualization.* 
 - Click on one of the properties in the box to manually change the way that your visualization appears. 
 - Drag and drop Dimensions or Measures onto properties in the Marks card to change the context or detail of that Dimension or Measure.
+- Different cards appear for different layers if the visualization needs them (e.g. multiple layers on a map).
 
 **Sheets**: *Where you create your data visualization. Each visualization will require its own sheet.*  
 
