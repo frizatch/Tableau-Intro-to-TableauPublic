@@ -191,7 +191,7 @@ Let's go through another exercise pulling in data that we might find in a table 
 
 Go back to the data folder and download the following file:
 
-[KoppEtAl2014_JHumEvol_page5.pdf](web)
+[KoppEtAl2014_JHumEvol_page5.pdf](https://github.com/frizatch/Tableau-Intro-to-TableauPublic/blob/main/data/KoppEtAl2014_JHumEvol_page5.pdf)
 
 This is a single page from a publication about tracking baboon migrations by genetically sampling different populations and looking for relationships. Let's say we really want to map out where these sample locations are, but the data looks like this!:
 
